@@ -1,0 +1,155 @@
+*, html {
+    margin : 0;
+    padding : 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+    
+    
+}
+ body {
+    background-color:white;
+   
+
+ }
+nav {
+    background-color :white;
+    box-shadow : 5px 5px 5px rgba(0, 0, 0, 0.1)
+
+    
+}
+
+ nav ul {
+    width : 100%;
+    list-style: none;
+    display : flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+    
+nav li {
+    height : 70px;
+}
+nav a {
+    height : 100%;
+    padding : 0 30px;
+    text-decoration: none;
+    display : flex;
+    align-items : center;
+    color : black;
+
+}
+nav a:hover {
+    background-color: rgb(203, 198, 188);
+    
+}
+nav li:first-child {
+    margin-right : auto;
+    font-size: 30px;
+    
+}
+  .sidebar {
+    position : fixed;
+    top : 0;
+    right : 0;
+    height : 100vh;
+    width : 250px;
+    z-index : 999;
+    background-color : white;
+    box-shadow : -10px 0 10px rgba(0, 0, 0, 0.1);
+    display : flex;
+    backdrop-filter : blur(5px);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width : 100%;
+  }
+  .sidebar a {
+    width : 100%
+  }
+  @media (max-width : 800px) {
+    .hideOnMobile{
+       display : none; 
+    }
+  }
+  @media (max-width : 400px) {
+    .sidebar {
+        width : 100%;
+    }
+  }
+ 
+  
+  
+.menu {
+    display : block;
+}
+  .footer {
+    margin-left : 50px;
+    color : white;
+  }
+  .harga {
+    margin-left : 50px;
+    color : rgb(0,113,133);
+}
+.parfum1 {
+    margin-left : 20px;
+    font-size: 18px;
+}
+
+img {
+    width : 200px;
+    
+}
+.parfuman {
+   
+height: 220px;
+   margin-top : 40px;
+    
+    display : flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+.parfuman1{
+   
+    height: 220px;
+       margin-top : 30px;
+        
+        display : flex;
+        justify-content: space-evenly;
+        align-items: space-evenly;
+    }
+    .parfuman2 {
+        height: 20px;
+        
+         display : flex;
+         justify-content: space-evenly;
+         align-items: space-evenly;
+    }
+    .parfuman3 {
+        height: 40px;
+        
+        display : flex;
+        justify-content: space-evenly;
+        align-items: space-evenly;
+    }
+    .parfuman4 {
+       
+            height: 20px;
+            
+             display : flex;
+             justify-content: space-evenly;
+             align-items: space-evenly;
+    }
+    .parfuman5 {
+
+     height: 40px;
+        
+        display : flex;
+        justify-content: space-evenly;
+        align-items: space-evenly;
+    }
+    .footer {
+        color : black;
+        margin-top : 50px;
+    }
